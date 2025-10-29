@@ -5,11 +5,14 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color:black;
-            color: white;
+            color:aliceblue;
+            background-image: url("/Greeninnovation.jpg");
+            background-size: cover;        /* makes the image cover the whole page */
+            background-attachment: fixed;  /* keeps image still when scrolling */
+            background-position: center;   /* centers the image */
             margin: 0;
-            padding: 0;
         }
+    
         header, footer {
             background-color: white;
             text-align: center;
@@ -18,15 +21,14 @@
         }
         section {
             padding: 25px;
-            max-width: 900px;
             margin: auto;
         }
         h1, h2 {
             color: green;
         }
         p {
-            font-size: 17px;
-            line-height: 1.6;
+            font-size: 25px;
+            line-height: 1.4;
         }
         img {
             width: 100%;
@@ -34,35 +36,67 @@
             display: block;
             margin: 15px auto;
             border-radius: 10px;
-            box-shadow: 0 0 10px #333;
+            box-shadow: 0 0 10px grey;
         }
         hr {
-            border: 0.5px solid #333;
+            border: 0.5px solid grey;
             margin: 30px 0;
         }
+        .first{
+            display: flex;
+            justify-content: space-evenly;
+            background-image: url("navbar.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            height: 25px;
+            padding-top: 5px;
+            margin-top: 20px;
+            border-radius: 30%;
+        }
+        a{
+            color:white;
+            text-decoration:none;
+        }
+
     </style>
 </head>
 <body>
-
+<nav>
+      <div>
+      <ul class="first"type="none">
+        <li><a href="#home">home</a></li>
+        <li><a href="#AI&ML">AI&ML</a></li>
+        <li><a href="#Robotics">Robotics</a></li>
+        <li><a href="#Quantum">Quantum</a></li>
+        <li><a href="#Space Tech">Space Tech </a></li>
+        <li><a href="#Green Innovation">Green Innovation</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+      </div>
+    </nav>
 <header>
-    <h1>🌿 Green Innovation</h1>
+    <h1> Green Innovation</h1>
     <p>Using Technology to Build a Cleaner and Smarter World</p>
 </header>
 
 <section>
-    <h2>What is Green Innovation?</h2>
+    <ul>
+    <li><h2>What is Green Innovation?</h2></li>
     <p>
         Green innovation means creating new ideas and technologies that help protect the environment.
         It focuses on reducing pollution, saving energy, and using natural resources wisely.
         Today, many modern technologies — like electric cars, solar panels, and AI systems —
         are helping us move towards a sustainable future.
     </p>
+    </ul>
 </section>
 
 <hr>
 
 <section>
-    <h2>🚗 Green Energy Cars</h2>
+    <ul>
+    <li><h2> Green Energy Cars</h2></li>
     <p>
         Green energy cars, also known as electric vehicles (EVs), use electricity instead of petrol or diesel.
         They run on rechargeable batteries, which means they do not release harmful gases into the air.
@@ -73,12 +107,15 @@
         with zero emissions. Some cars even use solar panels to charge their batteries.
         These vehicles are quiet, efficient, and are the future of clean transportation.
     </p>
+    <img src="/greenenergycars.jpg" alt="Solar Panels">
+    </ul>
 </section>
 
 <hr>
 
 <section>
-    <h2>☀️ Solar Energy</h2>
+    <ul>
+    <li><h2>Solar Energy</h2></li>
     <p>
         Solar energy is one of the best renewable energy sources. Solar panels convert sunlight into electricity,
         which can be used to power homes, schools, factories, and even vehicles.
@@ -89,13 +126,15 @@
         and adjust the panels for maximum sunlight. Solar energy is clean, free, and unlimited,
         making it one of the most important parts of green innovation.
     </p>
-    <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" alt="Solar Panels">
+    <img src="/Solarpanel.jpg" alt="Solar Panels">
+    </ul>
 </section>
 
 <hr>
 
 <section>
-    <h2>🤖 AI in Electric Equipment</h2>
+    <ul>
+    <li><h2>AI in Electric Equipment</h2></li>
     <p>
         Artificial Intelligence (AI) is playing a big role in saving energy. Smart electric equipment like
         AI-powered fans, air conditioners, and lights can automatically turn off when not needed.
@@ -106,13 +145,14 @@
         In electric vehicles, AI helps control battery performance and driving safety.
         AI and electricity together are creating a future where technology is both smart and green.
     </p>
-    <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995" alt="AI and Electric Equipment">
+    </ul>
 </section>
+
 
 <hr>
 
 <section>
-    <h2>🌏 Why Green Innovation Matters</h2>
+    <h2> Why Green Innovation Matters</h2>
     <p>
         Green innovation is not just about technology — it’s about our responsibility to protect the planet.
         By using electric vehicles, solar energy, and AI systems wisely, we can reduce pollution, save natural
@@ -123,9 +163,12 @@
         a big difference. Together, we can build a cleaner, smarter, and greener Earth.
     </p>
 </section>
+    </section>
+    </section>
+</section>
 
 <footer>
-    <p>© 2025 Green Innovation Project | Made with 💚 for a Better Planet</p>
+    <p> Green Innovation Project | Tech Verse </p>
 </footer>
 
 </body>
